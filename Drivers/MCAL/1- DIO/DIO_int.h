@@ -34,7 +34,7 @@
 /* Function Prototypes */
 void DIO_voidInitialization(void);
 void DIO_voidSetPinDirection(u8 PortID, u8 PinID, u8 Direction);
-void DIO_voidSetpinValue(u8 PortID, u8 PinID, u8 Value);
+void DIO_voidSetPinValue(u8 PortID, u8 PinID, u8 Value);
 u8   DIO_u8GetPinValue(u8 PortID, u8 PinID);
 void DIO_voidTogglePin(u8 PortID, u8 PinID);
 void DIO_voidSetPortDirection(u8 PortID, u8 Direction);

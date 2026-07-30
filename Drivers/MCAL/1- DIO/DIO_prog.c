@@ -46,7 +46,7 @@ void DIO_voidSetPinDirection(u8 PortID, u8 PinID, u8 Direction)
 }
 
 /** Output Mode */
-void DIO_voidSetpinValue(u8 PortID, u8 PinID, u8 Value)
+void DIO_voidSetPinValue(u8 PortID, u8 PinID, u8 Value)
 {
 	if(PortID < 4 && PinID < 8)
 	{
