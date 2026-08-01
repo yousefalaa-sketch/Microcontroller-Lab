@@ -12,7 +12,7 @@
 
 #include "KEYPAD_config.h"
 #include "KEYPAD_private.h"
-#include "KEYPAD_interface.h"
+#include "KEYPAD_int.h"
 
 //2D array
 static const u8 KPD_u8Buttons[KPD_ROW_NUM][KPD_COL_NUM] = KPD_KEYS;
